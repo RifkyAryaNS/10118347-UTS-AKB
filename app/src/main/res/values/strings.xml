@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RifkyANS10118347</string>
+    <string name="about">About</string>
+    <string name="setting">Setting</string>
+    <string name="ViewPager">View Pager</string>
+    <string name="profile">Profile</string>
+    <string name="note">My Note</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

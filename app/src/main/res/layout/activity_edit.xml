@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".EditActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Judul"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/editJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Category"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/editCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Isi Catatan"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/editIsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:gravity="top|left"
+        android:lines="8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_700"
+            android:text="Update"/>
+
+    </LinearLayout>
+
+</LinearLayout>
